@@ -1,0 +1,32 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+/* Varibales */
+
+:root {
+  --color-light-cyan: #cee3e9;
+  --color-neon-green: #52ffa8;
+  --color-grayish-blue: #4e5d73;
+  --color-dark-grayish-blue: #323a49;
+  --color-blue: #1f2632;
+  --font-family: "Manrope", sans-serif;
+}
+
+/* Global */
+
+html {
+  font-size: 62/5%;
+}
+
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
