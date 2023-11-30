@@ -42,8 +42,66 @@ body {
   width: 343px;
   padding: 4rem 2.4rem 6.4rem 2.4rem;
   text-align: center;
+  position: relative;
+}
+
+p {
+  color: var(--color-neon-green);
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 3.457px;
+  margin-bottom: 2.4rem;
+}
+
+h1 {
+  color: var(--color-light-cyan);
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
 }
 
 .divider-img-desktop {
   display: none;
+}
+
+button {
+  background-color: var(--color-neon-green);
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  padding: 2rem;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 40px 0px #53ffaa;
+}
+
+button img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 540px;
+    padding: 4.8rem 4.8rem 7.2rem 4.8rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .divider-img-mobile {
+    display: none;
+  }
+
+  .divider-img-desktop {
+    display: block;
+  }
 }
